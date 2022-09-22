@@ -61,7 +61,7 @@ public class TicketEspecial extends Ticket
 		
 		this.personas = scanner.nextInt();
 		
-		this.kmtotales = kmSalida - this.kmInicial;
+		this.kmtotales = Math.abs(kmSalida - kmInicial);
 		
 		this.tarifa = this.kmtotales * this.precioKm * this.personas;
 		

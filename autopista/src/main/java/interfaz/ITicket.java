@@ -10,12 +10,12 @@ public interface ITicket {
 	/**
 	 * Metodo para generar un ticket con el registro inicial
 	 */
-	public void registroInicial();
+	void registroInicial();
 	
 	/**
 	 * Metodo para general el ticket con el registro final al que se le pasan los kilometros con los que sale de la autopista
 	 * @param km_salida kilometros con los que se sale de la autopista
 	 */
-	public void registroFinal(int km_salida);
+	void registroFinal(int km_salida);
 
 }

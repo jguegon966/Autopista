@@ -49,7 +49,7 @@ public class TicketGeneral extends Ticket {
 	public void registroFinal(int kmSalida) 
 	{
 		
-		this.kmtotales = kmSalida - kmInicial;
+		this.kmtotales = Math.abs(kmSalida - kmInicial);
 		
 		this.tarifa = this.kmtotales * precioKm;
 		

@@ -42,7 +42,7 @@ public class Main
 		 */
 		ticketCoches.registroFinal(salidaCoches);
 		
-		/*
+		/**
 		 * llamada al metodo registro inicial del ticket especial
 		 */
 		ticketBuses.registroInicial();
